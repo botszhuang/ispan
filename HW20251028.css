@@ -1,0 +1,64 @@
+/* Style for the links */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.image-container {
+    width: 300px;
+    /* set your image size */
+    text-align: center;
+    /* center caption text */
+    float: left;
+    margin-right: 20px;
+
+    border: 5px dotted #ccc;
+    /* added style + color */
+    border-radius: 1em;
+    padding: 1em;
+
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* makes image take full line */
+    border-radius: 10px;
+}
+
+.image-container figcaption {
+    margin-top: 8px;
+    /* space between pic and caption */
+    font-size: 0.9em;
+    color: #555;
+}
+
+.main_div1 {
+    background-color: none;
+}
+
+.main_sub_title {
+    padding: 1em;
+}
+
+.main_title {
+    padding: 5em;
+}
+
+.main {
+    width: 50em;
+    background-color: rosybrown;
+    padding: 5em;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    /*height: 100vh;*/
+    /* Example: Full viewport height for vertical centering */
+}

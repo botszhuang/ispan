@@ -38,8 +38,12 @@
     background-color: none;
 }
 
+.my_text {
+    line-height: 200%;
+}
+
 .main_sub_title {
-    padding: 1em;
+    padding: 3em;
 }
 
 .main_title {
